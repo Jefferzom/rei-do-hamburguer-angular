@@ -5,11 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './rei-do-hamburguer.component.html',
   styleUrls: ['./rei-do-hamburguer.component.scss']
 })
-export class ReiDoHamburguerComponent implements OnInit {
+export class ReiDoHamburguerComponent {
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

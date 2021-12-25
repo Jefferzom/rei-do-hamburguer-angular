@@ -1,9 +1,22 @@
 .rei-do-hamburguer-footer {
+  background: $color-black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 52px;
 
   &__content {
+    margin: 0 2rem;
+    width: 100%;
+    max-width: $max-width;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 
     p {
-
+      color: #fff;
+      font-size: 1.1rem;
+      letter-spacing: 0.45px;
     }
 
     img {

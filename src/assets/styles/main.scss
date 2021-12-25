@@ -3,4 +3,10 @@
 
 // Components
 @import "components/_footer/_footer.scss";
-@import "components/_header/_header.scss"
+@import "components/_header/_header.scss";
+@import "components/_cto/_cto.scss";
+@import "components/_information/_information.scss";
+@import "components/_localize/_localize.scss";
+
+// Reset de CSS
+@import "default.scss";
